@@ -1,0 +1,11 @@
+-- Found ament_cmake: 1.5.0 (/opt/ros/rolling/share/ament_cmake/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/Stogl/my_new_workspace/src/schunk_robots/build/schunk_lwa4p
+-- Install configuration: ""
+[31mCMake Error at cmake_install.cmake:46 (file):
+  file INSTALL cannot find
+  "/root/Stogl/my_new_workspace/src/schunk_robots/schunk_lwa4p/models": No
+  such file or directory.
+
+[0m

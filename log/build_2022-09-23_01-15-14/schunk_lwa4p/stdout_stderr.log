@@ -1,0 +1,8 @@
+-- Found ament_cmake: 1.5.0 (/opt/ros/rolling/share/ament_cmake/cmake)
+[31mCMake Error at CMakeLists.txt:10 (roslaunch_add_file_check):
+  Unknown CMake command "roslaunch_add_file_check".
+
+[0m
+-- Configuring incomplete, errors occurred!
+See also "/root/Stogl/my_new_workspace/src/schunk_robots/build/schunk_lwa4p/CMakeFiles/CMakeOutput.log".
+gmake: *** [Makefile:226: cmake_check_build_system] Error 1

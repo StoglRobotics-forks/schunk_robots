@@ -1,0 +1,5 @@
+[31mCMake Error at CMakeLists.txt:6 (catkin_package):
+  Unknown CMake command "catkin_package".
+
+[0m
+gmake: *** [Makefile:226: cmake_check_build_system] Error 1

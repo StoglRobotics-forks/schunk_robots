@@ -1,0 +1,5 @@
+[31mCMake Error at CMakeLists.txt:10 (roslaunch_add_file_check):
+  Unknown CMake command "roslaunch_add_file_check".
+
+[0m
+gmake: *** [Makefile:226: cmake_check_build_system] Error 1

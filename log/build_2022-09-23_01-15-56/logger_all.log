@@ -1,0 +1,119 @@
+[0.294s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'schunk_lwa4p']
+[0.294s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['schunk_lwa4p'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f3b25f42170>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f3b268910c0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f3b268910c0>>, mixin_verb=('build',))
+[0.316s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.317s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/Gazebo.meta'
+[0.317s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/fastrtps.meta'
+[0.317s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.317s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.317s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.317s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.317s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.317s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/root/Stogl/my_new_workspace/src/schunk_robots'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(schunk_lwa4p) by extensions ['ignore', 'ignore_ament_install']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(schunk_lwa4p) by extension 'ignore'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(schunk_lwa4p) by extension 'ignore_ament_install'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(schunk_lwa4p) by extensions ['colcon_pkg']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(schunk_lwa4p) by extension 'colcon_pkg'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(schunk_lwa4p) by extensions ['colcon_meta']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(schunk_lwa4p) by extension 'colcon_meta'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(schunk_lwa4p) by extensions ['ros']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(schunk_lwa4p) by extension 'ros'
+[0.342s] DEBUG:colcon.colcon_core.package_identification:Package 'schunk_lwa4p' with type 'ros.catkin' and name 'schunk_lwa4p'
+[0.342s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.342s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.342s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.342s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.342s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.366s] Level 5:colcon.colcon_core.verb:set package 'schunk_lwa4p' build argument 'cmake_args' from command line to 'None'
+[0.366s] Level 5:colcon.colcon_core.verb:set package 'schunk_lwa4p' build argument 'cmake_target' from command line to 'None'
+[0.366s] Level 5:colcon.colcon_core.verb:set package 'schunk_lwa4p' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.366s] Level 5:colcon.colcon_core.verb:set package 'schunk_lwa4p' build argument 'cmake_clean_cache' from command line to 'False'
+[0.366s] Level 5:colcon.colcon_core.verb:set package 'schunk_lwa4p' build argument 'cmake_clean_first' from command line to 'False'
+[0.366s] Level 5:colcon.colcon_core.verb:set package 'schunk_lwa4p' build argument 'cmake_force_configure' from command line to 'False'
+[0.366s] Level 5:colcon.colcon_core.verb:set package 'schunk_lwa4p' build argument 'ament_cmake_args' from command line to 'None'
+[0.366s] Level 5:colcon.colcon_core.verb:set package 'schunk_lwa4p' build argument 'catkin_cmake_args' from command line to 'None'
+[0.366s] Level 5:colcon.colcon_core.verb:set package 'schunk_lwa4p' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.366s] DEBUG:colcon.colcon_core.verb:Building package 'schunk_lwa4p' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/Stogl/my_new_workspace/src/schunk_robots/build/schunk_lwa4p', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/Stogl/my_new_workspace/src/schunk_robots/install/schunk_lwa4p', 'merge_install': False, 'path': '/root/Stogl/my_new_workspace/src/schunk_robots/schunk_lwa4p', 'symlink_install': False, 'test_result_base': None}
+[0.367s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.371s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.372s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/root/Stogl/my_new_workspace/src/schunk_robots/schunk_lwa4p' with build type 'catkin'
+[0.373s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/Stogl/my_new_workspace/src/schunk_robots/schunk_lwa4p'
+[0.380s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.380s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.380s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.400s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Stogl/my_new_workspace/src/schunk_robots/build/schunk_lwa4p': PS1=\[\e[0;37m\][\t]\[\[\e[1;32m\]\u\[\[\e[0;37m\]@\[\[\e[0;33m\]\h\[\[\e[1;33m\]${text}\[\[\e[0;37m\]:\[$(set_ros_workspace_color)\]$(parse_ros_workspace)\[\[\e[0;32m\]$(parse_git_branch_and_add_brackets)>\[\[\e[1;35m\]\W\[\[\e[1;35m\]$\[\[\e[0m\]\[\e[m\] /usr/bin/cmake --build /root/Stogl/my_new_workspace/src/schunk_robots/build/schunk_lwa4p -- -j8 -l8
+[0.689s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/Stogl/my_new_workspace/src/schunk_robots/build/schunk_lwa4p' returned '0': PS1=\[\e[0;37m\][\t]\[\[\e[1;32m\]\u\[\[\e[0;37m\]@\[\[\e[0;33m\]\h\[\[\e[1;33m\]${text}\[\[\e[0;37m\]:\[$(set_ros_workspace_color)\]$(parse_ros_workspace)\[\[\e[0;32m\]$(parse_git_branch_and_add_brackets)>\[\[\e[1;35m\]\W\[\[\e[1;35m\]$\[\[\e[0m\]\[\e[m\] /usr/bin/cmake --build /root/Stogl/my_new_workspace/src/schunk_robots/build/schunk_lwa4p -- -j8 -l8
+[0.738s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Stogl/my_new_workspace/src/schunk_robots/build/schunk_lwa4p': PS1=\[\e[0;37m\][\t]\[\[\e[1;32m\]\u\[\[\e[0;37m\]@\[\[\e[0;33m\]\h\[\[\e[1;33m\]${text}\[\[\e[0;37m\]:\[$(set_ros_workspace_color)\]$(parse_ros_workspace)\[\[\e[0;32m\]$(parse_git_branch_and_add_brackets)>\[\[\e[1;35m\]\W\[\[\e[1;35m\]$\[\[\e[0m\]\[\e[m\] /usr/bin/cmake --install /root/Stogl/my_new_workspace/src/schunk_robots/build/schunk_lwa4p
+[0.758s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/Stogl/my_new_workspace/src/schunk_robots/build/schunk_lwa4p' returned '0': PS1=\[\e[0;37m\][\t]\[\[\e[1;32m\]\u\[\[\e[0;37m\]@\[\[\e[0;33m\]\h\[\[\e[1;33m\]${text}\[\[\e[0;37m\]:\[$(set_ros_workspace_color)\]$(parse_ros_workspace)\[\[\e[0;32m\]$(parse_git_branch_and_add_brackets)>\[\[\e[1;35m\]\W\[\[\e[1;35m\]$\[\[\e[0m\]\[\e[m\] /usr/bin/cmake --install /root/Stogl/my_new_workspace/src/schunk_robots/build/schunk_lwa4p
+[0.777s] Level 1:colcon.colcon_core.shell:create_environment_hook('schunk_lwa4p', 'ros_package_path')
+[0.778s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Stogl/my_new_workspace/src/schunk_robots/install/schunk_lwa4p/share/schunk_lwa4p/hook/ros_package_path.ps1'
+[0.779s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Stogl/my_new_workspace/src/schunk_robots/install/schunk_lwa4p/share/schunk_lwa4p/hook/ros_package_path.dsv'
+[0.780s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Stogl/my_new_workspace/src/schunk_robots/install/schunk_lwa4p/share/schunk_lwa4p/hook/ros_package_path.sh'
+[0.781s] Level 1:colcon.colcon_core.shell:create_environment_hook('schunk_lwa4p', 'pkg_config_path')
+[0.782s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Stogl/my_new_workspace/src/schunk_robots/install/schunk_lwa4p/share/schunk_lwa4p/hook/pkg_config_path.ps1'
+[0.782s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Stogl/my_new_workspace/src/schunk_robots/install/schunk_lwa4p/share/schunk_lwa4p/hook/pkg_config_path.dsv'
+[0.783s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Stogl/my_new_workspace/src/schunk_robots/install/schunk_lwa4p/share/schunk_lwa4p/hook/pkg_config_path.sh'
+[0.785s] Level 1:colcon.colcon_core.shell:create_environment_hook('schunk_lwa4p', 'pkg_config_path_multiarch')
+[0.786s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Stogl/my_new_workspace/src/schunk_robots/install/schunk_lwa4p/share/schunk_lwa4p/hook/pkg_config_path_multiarch.ps1'
+[0.786s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Stogl/my_new_workspace/src/schunk_robots/install/schunk_lwa4p/share/schunk_lwa4p/hook/pkg_config_path_multiarch.dsv'
+[0.787s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Stogl/my_new_workspace/src/schunk_robots/install/schunk_lwa4p/share/schunk_lwa4p/hook/pkg_config_path_multiarch.sh'
+[0.789s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(schunk_lwa4p)
+[0.793s] Level 1:colcon.colcon_core.environment:checking '/root/Stogl/my_new_workspace/src/schunk_robots/install/schunk_lwa4p' for CMake module files
+[0.794s] Level 1:colcon.colcon_core.environment:checking '/root/Stogl/my_new_workspace/src/schunk_robots/install/schunk_lwa4p' for CMake config files
+[0.794s] Level 1:colcon.colcon_core.shell:create_environment_hook('schunk_lwa4p', 'cmake_prefix_path')
+[0.795s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Stogl/my_new_workspace/src/schunk_robots/install/schunk_lwa4p/share/schunk_lwa4p/hook/cmake_prefix_path.ps1'
+[0.795s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Stogl/my_new_workspace/src/schunk_robots/install/schunk_lwa4p/share/schunk_lwa4p/hook/cmake_prefix_path.dsv'
+[0.796s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Stogl/my_new_workspace/src/schunk_robots/install/schunk_lwa4p/share/schunk_lwa4p/hook/cmake_prefix_path.sh'
+[0.796s] Level 1:colcon.colcon_core.environment:checking '/root/Stogl/my_new_workspace/src/schunk_robots/install/schunk_lwa4p/bin'
+[0.796s] Level 1:colcon.colcon_core.environment:checking '/root/Stogl/my_new_workspace/src/schunk_robots/install/schunk_lwa4p/lib/pkgconfig/schunk_lwa4p.pc'
+[0.797s] Level 1:colcon.colcon_core.environment:checking '/root/Stogl/my_new_workspace/src/schunk_robots/install/schunk_lwa4p/lib/python3.10/site-packages'
+[0.798s] Level 1:colcon.colcon_core.environment:checking '/root/Stogl/my_new_workspace/src/schunk_robots/install/schunk_lwa4p/bin'
+[0.799s] INFO:colcon.colcon_core.shell:Creating package script '/root/Stogl/my_new_workspace/src/schunk_robots/install/schunk_lwa4p/share/schunk_lwa4p/package.ps1'
+[0.800s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/Stogl/my_new_workspace/src/schunk_robots/install/schunk_lwa4p/share/schunk_lwa4p/package.dsv'
+[0.801s] INFO:colcon.colcon_core.shell:Creating package script '/root/Stogl/my_new_workspace/src/schunk_robots/install/schunk_lwa4p/share/schunk_lwa4p/package.sh'
+[0.802s] INFO:colcon.colcon_core.shell:Creating package script '/root/Stogl/my_new_workspace/src/schunk_robots/install/schunk_lwa4p/share/schunk_lwa4p/package.bash'
+[0.802s] INFO:colcon.colcon_core.shell:Creating package script '/root/Stogl/my_new_workspace/src/schunk_robots/install/schunk_lwa4p/share/schunk_lwa4p/package.zsh'
+[0.803s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/Stogl/my_new_workspace/src/schunk_robots/install/schunk_lwa4p/share/colcon-core/packages/schunk_lwa4p)
+[0.804s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.804s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.804s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[0.805s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.814s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[0.814s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.814s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.814s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.816s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[0.817s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.819s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/Stogl/my_new_workspace/src/schunk_robots/install/local_setup.ps1'
+[0.820s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/Stogl/my_new_workspace/src/schunk_robots/install/_local_setup_util_ps1.py'
+[0.822s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/Stogl/my_new_workspace/src/schunk_robots/install/setup.ps1'
+[0.824s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/Stogl/my_new_workspace/src/schunk_robots/install/local_setup.sh'
+[0.825s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/Stogl/my_new_workspace/src/schunk_robots/install/_local_setup_util_sh.py'
+[0.825s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/Stogl/my_new_workspace/src/schunk_robots/install/setup.sh'
+[0.826s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/Stogl/my_new_workspace/src/schunk_robots/install/local_setup.bash'
+[0.827s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/Stogl/my_new_workspace/src/schunk_robots/install/setup.bash'
+[0.828s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/Stogl/my_new_workspace/src/schunk_robots/install/local_setup.zsh'
+[0.829s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/Stogl/my_new_workspace/src/schunk_robots/install/setup.zsh'

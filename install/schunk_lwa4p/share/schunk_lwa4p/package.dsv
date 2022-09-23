@@ -1,0 +1,8 @@
+source;share/schunk_lwa4p/hook/cmake_prefix_path.ps1
+source;share/schunk_lwa4p/hook/cmake_prefix_path.dsv
+source;share/schunk_lwa4p/hook/cmake_prefix_path.sh
+source;share/schunk_lwa4p/local_setup.bash
+source;share/schunk_lwa4p/local_setup.dsv
+source;share/schunk_lwa4p/local_setup.ps1
+source;share/schunk_lwa4p/local_setup.sh
+source;share/schunk_lwa4p/local_setup.zsh

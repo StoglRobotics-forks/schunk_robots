@@ -1,0 +1,51 @@
+[0.025s] Invoking command in '/root/Stogl/my_new_workspace/src/schunk_robots/build/schunk_lwa4p': PS1=\[\e[0;37m\][\t]\[\[\e[1;32m\]\u\[\[\e[0;37m\]@\[\[\e[0;33m\]\h\[\[\e[1;33m\]${text}\[\[\e[0;37m\]:\[$(set_ros_workspace_color)\]$(parse_ros_workspace)\[\[\e[0;32m\]$(parse_git_branch_and_add_brackets)>\[\[\e[1;35m\]\W\[\[\e[1;35m\]$\[\[\e[0m\]\[\e[m\] /usr/bin/cmake --build /root/Stogl/my_new_workspace/src/schunk_robots/build/schunk_lwa4p -- -j8 -l8
+[0.044s] -- Found ament_cmake: 1.5.0 (/opt/ros/rolling/share/ament_cmake/cmake)
+[0.296s] -- Found launch_testing_ament_cmake: 1.1.0 (/opt/ros/rolling/share/launch_testing_ament_cmake/cmake)
+[0.296s] -- Found python_cmake_module: 0.10.0 (/opt/ros/rolling/share/python_cmake_module/cmake)
+[0.324s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.324s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.324s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.326s] -- Configuring done
+[0.331s] -- Generating done
+[0.332s] -- Build files have been written to: /root/Stogl/my_new_workspace/src/schunk_robots/build/schunk_lwa4p
+[0.351s] Invoked command in '/root/Stogl/my_new_workspace/src/schunk_robots/build/schunk_lwa4p' returned '0': PS1=\[\e[0;37m\][\t]\[\[\e[1;32m\]\u\[\[\e[0;37m\]@\[\[\e[0;33m\]\h\[\[\e[1;33m\]${text}\[\[\e[0;37m\]:\[$(set_ros_workspace_color)\]$(parse_ros_workspace)\[\[\e[0;32m\]$(parse_git_branch_and_add_brackets)>\[\[\e[1;35m\]\W\[\[\e[1;35m\]$\[\[\e[0m\]\[\e[m\] /usr/bin/cmake --build /root/Stogl/my_new_workspace/src/schunk_robots/build/schunk_lwa4p -- -j8 -l8
+[0.394s] Invoking command in '/root/Stogl/my_new_workspace/src/schunk_robots/build/schunk_lwa4p': PS1=\[\e[0;37m\][\t]\[\[\e[1;32m\]\u\[\[\e[0;37m\]@\[\[\e[0;33m\]\h\[\[\e[1;33m\]${text}\[\[\e[0;37m\]:\[$(set_ros_workspace_color)\]$(parse_ros_workspace)\[\[\e[0;32m\]$(parse_git_branch_and_add_brackets)>\[\[\e[1;35m\]\W\[\[\e[1;35m\]$\[\[\e[0m\]\[\e[m\] /usr/bin/cmake --install /root/Stogl/my_new_workspace/src/schunk_robots/build/schunk_lwa4p
+[0.400s] -- Install configuration: ""
+[0.400s] -- Up-to-date: /root/Stogl/my_new_workspace/src/schunk_robots/install/schunk_lwa4p/share/ament_index/resource_index/package_run_dependencies/schunk_lwa4p
+[0.400s] -- Up-to-date: /root/Stogl/my_new_workspace/src/schunk_robots/install/schunk_lwa4p/share/ament_index/resource_index/parent_prefix_path/schunk_lwa4p
+[0.400s] -- Up-to-date: /root/Stogl/my_new_workspace/src/schunk_robots/install/schunk_lwa4p/share/schunk_lwa4p/environment/ament_prefix_path.sh
+[0.401s] -- Installing: /root/Stogl/my_new_workspace/src/schunk_robots/install/schunk_lwa4p/share/schunk_lwa4p/environment/ament_prefix_path.dsv
+[0.401s] -- Up-to-date: /root/Stogl/my_new_workspace/src/schunk_robots/install/schunk_lwa4p/share/schunk_lwa4p/environment/path.sh
+[0.401s] -- Installing: /root/Stogl/my_new_workspace/src/schunk_robots/install/schunk_lwa4p/share/schunk_lwa4p/environment/path.dsv
+[0.402s] -- Up-to-date: /root/Stogl/my_new_workspace/src/schunk_robots/install/schunk_lwa4p/share/schunk_lwa4p/local_setup.bash
+[0.402s] -- Up-to-date: /root/Stogl/my_new_workspace/src/schunk_robots/install/schunk_lwa4p/share/schunk_lwa4p/local_setup.sh
+[0.403s] -- Up-to-date: /root/Stogl/my_new_workspace/src/schunk_robots/install/schunk_lwa4p/share/schunk_lwa4p/local_setup.zsh
+[0.403s] -- Installing: /root/Stogl/my_new_workspace/src/schunk_robots/install/schunk_lwa4p/share/schunk_lwa4p/local_setup.dsv
+[0.403s] -- Installing: /root/Stogl/my_new_workspace/src/schunk_robots/install/schunk_lwa4p/share/schunk_lwa4p/package.dsv
+[0.403s] -- Up-to-date: /root/Stogl/my_new_workspace/src/schunk_robots/install/schunk_lwa4p/share/ament_index/resource_index/packages/schunk_lwa4p
+[0.403s] -- Up-to-date: /root/Stogl/my_new_workspace/src/schunk_robots/install/schunk_lwa4p/share/schunk_lwa4p/cmake/schunk_lwa4pConfig.cmake
+[0.403s] -- Up-to-date: /root/Stogl/my_new_workspace/src/schunk_robots/install/schunk_lwa4p/share/schunk_lwa4p/cmake/schunk_lwa4pConfig-version.cmake
+[0.404s] -- Up-to-date: /root/Stogl/my_new_workspace/src/schunk_robots/install/schunk_lwa4p/share/schunk_lwa4p/package.xml
+[0.404s] -- Up-to-date: /root/Stogl/my_new_workspace/src/schunk_robots/install/schunk_lwa4p/share/schunk_lwa4p//config
+[0.404s] -- Up-to-date: /root/Stogl/my_new_workspace/src/schunk_robots/install/schunk_lwa4p/share/schunk_lwa4p//config/arm_controller.yaml
+[0.404s] -- Up-to-date: /root/Stogl/my_new_workspace/src/schunk_robots/install/schunk_lwa4p/share/schunk_lwa4p//config/joint_limits.yaml
+[0.404s] -- Up-to-date: /root/Stogl/my_new_workspace/src/schunk_robots/install/schunk_lwa4p/share/schunk_lwa4p//config/arm_cartesian_controller.yaml
+[0.405s] -- Up-to-date: /root/Stogl/my_new_workspace/src/schunk_robots/install/schunk_lwa4p/share/schunk_lwa4p//config/diagnostics_analyzers.yaml
+[0.406s] -- Up-to-date: /root/Stogl/my_new_workspace/src/schunk_robots/install/schunk_lwa4p/share/schunk_lwa4p//config/arm_self_collision.yaml
+[0.407s] -- Up-to-date: /root/Stogl/my_new_workspace/src/schunk_robots/install/schunk_lwa4p/share/schunk_lwa4p//config/can0.yaml
+[0.408s] -- Up-to-date: /root/Stogl/my_new_workspace/src/schunk_robots/install/schunk_lwa4p/share/schunk_lwa4p//config/arm_driver.yaml
+[0.408s] -- Up-to-date: /root/Stogl/my_new_workspace/src/schunk_robots/install/schunk_lwa4p/share/schunk_lwa4p//config/Schunk_0_63.dcf
+[0.408s] -- Up-to-date: /root/Stogl/my_new_workspace/src/schunk_robots/install/schunk_lwa4p/share/schunk_lwa4p//config/command_gui_buttons.yaml
+[0.408s] -- Up-to-date: /root/Stogl/my_new_workspace/src/schunk_robots/install/schunk_lwa4p/share/schunk_lwa4p//config/joint_configurations.yaml
+[0.408s] -- Up-to-date: /root/Stogl/my_new_workspace/src/schunk_robots/install/schunk_lwa4p/share/schunk_lwa4p//launch
+[0.408s] -- Up-to-date: /root/Stogl/my_new_workspace/src/schunk_robots/install/schunk_lwa4p/share/schunk_lwa4p//launch/cartesian_controller.launch
+[0.408s] -- Up-to-date: /root/Stogl/my_new_workspace/src/schunk_robots/install/schunk_lwa4p/share/schunk_lwa4p//launch/sim.launch
+[0.408s] -- Up-to-date: /root/Stogl/my_new_workspace/src/schunk_robots/install/schunk_lwa4p/share/schunk_lwa4p//launch/test_description.launch
+[0.408s] -- Up-to-date: /root/Stogl/my_new_workspace/src/schunk_robots/install/schunk_lwa4p/share/schunk_lwa4p//launch/robot.launch
+[0.409s] -- Up-to-date: /root/Stogl/my_new_workspace/src/schunk_robots/install/schunk_lwa4p/share/schunk_lwa4p//launch/test_description.rviz
+[0.409s] -- Up-to-date: /root/Stogl/my_new_workspace/src/schunk_robots/install/schunk_lwa4p/share/schunk_lwa4p//launch/dashboard.launch
+[0.409s] -- Up-to-date: /root/Stogl/my_new_workspace/src/schunk_robots/install/schunk_lwa4p/share/schunk_lwa4p//urdf
+[0.409s] -- Up-to-date: /root/Stogl/my_new_workspace/src/schunk_robots/install/schunk_lwa4p/share/schunk_lwa4p//urdf/robot.urdf.xacro
+[0.409s] -- Up-to-date: /root/Stogl/my_new_workspace/src/schunk_robots/install/schunk_lwa4p/share/schunk_lwa4p//urdf/test
+[0.409s] -- Up-to-date: /root/Stogl/my_new_workspace/src/schunk_robots/install/schunk_lwa4p/share/schunk_lwa4p//urdf/test/urdf.test
+[0.409s] Invoked command in '/root/Stogl/my_new_workspace/src/schunk_robots/build/schunk_lwa4p' returned '0': PS1=\[\e[0;37m\][\t]\[\[\e[1;32m\]\u\[\[\e[0;37m\]@\[\[\e[0;33m\]\h\[\[\e[1;33m\]${text}\[\[\e[0;37m\]:\[$(set_ros_workspace_color)\]$(parse_ros_workspace)\[\[\e[0;32m\]$(parse_git_branch_and_add_brackets)>\[\[\e[1;35m\]\W\[\[\e[1;35m\]$\[\[\e[0m\]\[\e[m\] /usr/bin/cmake --install /root/Stogl/my_new_workspace/src/schunk_robots/build/schunk_lwa4p
