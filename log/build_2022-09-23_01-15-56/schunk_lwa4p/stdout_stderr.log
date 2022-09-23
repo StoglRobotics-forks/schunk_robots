@@ -1,0 +1,42 @@
+-- Found ament_cmake: 1.5.0 (/opt/ros/rolling/share/ament_cmake/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/Stogl/my_new_workspace/src/schunk_robots/build/schunk_lwa4p
+-- Install configuration: ""
+-- Installing: /root/Stogl/my_new_workspace/src/schunk_robots/install/schunk_lwa4p/share/ament_index/resource_index/package_run_dependencies/schunk_lwa4p
+-- Installing: /root/Stogl/my_new_workspace/src/schunk_robots/install/schunk_lwa4p/share/ament_index/resource_index/parent_prefix_path/schunk_lwa4p
+-- Installing: /root/Stogl/my_new_workspace/src/schunk_robots/install/schunk_lwa4p/share/schunk_lwa4p/environment/ament_prefix_path.sh
+-- Installing: /root/Stogl/my_new_workspace/src/schunk_robots/install/schunk_lwa4p/share/schunk_lwa4p/environment/ament_prefix_path.dsv
+-- Installing: /root/Stogl/my_new_workspace/src/schunk_robots/install/schunk_lwa4p/share/schunk_lwa4p/environment/path.sh
+-- Installing: /root/Stogl/my_new_workspace/src/schunk_robots/install/schunk_lwa4p/share/schunk_lwa4p/environment/path.dsv
+-- Installing: /root/Stogl/my_new_workspace/src/schunk_robots/install/schunk_lwa4p/share/schunk_lwa4p/local_setup.bash
+-- Installing: /root/Stogl/my_new_workspace/src/schunk_robots/install/schunk_lwa4p/share/schunk_lwa4p/local_setup.sh
+-- Installing: /root/Stogl/my_new_workspace/src/schunk_robots/install/schunk_lwa4p/share/schunk_lwa4p/local_setup.zsh
+-- Installing: /root/Stogl/my_new_workspace/src/schunk_robots/install/schunk_lwa4p/share/schunk_lwa4p/local_setup.dsv
+-- Installing: /root/Stogl/my_new_workspace/src/schunk_robots/install/schunk_lwa4p/share/schunk_lwa4p/package.dsv
+-- Installing: /root/Stogl/my_new_workspace/src/schunk_robots/install/schunk_lwa4p/share/ament_index/resource_index/packages/schunk_lwa4p
+-- Installing: /root/Stogl/my_new_workspace/src/schunk_robots/install/schunk_lwa4p/share/schunk_lwa4p/cmake/schunk_lwa4pConfig.cmake
+-- Installing: /root/Stogl/my_new_workspace/src/schunk_robots/install/schunk_lwa4p/share/schunk_lwa4p/cmake/schunk_lwa4pConfig-version.cmake
+-- Installing: /root/Stogl/my_new_workspace/src/schunk_robots/install/schunk_lwa4p/share/schunk_lwa4p/package.xml
+-- Installing: /root/Stogl/my_new_workspace/src/schunk_robots/install/schunk_lwa4p/share/schunk_lwa4p//config
+-- Installing: /root/Stogl/my_new_workspace/src/schunk_robots/install/schunk_lwa4p/share/schunk_lwa4p//config/arm_controller.yaml
+-- Installing: /root/Stogl/my_new_workspace/src/schunk_robots/install/schunk_lwa4p/share/schunk_lwa4p//config/joint_limits.yaml
+-- Installing: /root/Stogl/my_new_workspace/src/schunk_robots/install/schunk_lwa4p/share/schunk_lwa4p//config/arm_cartesian_controller.yaml
+-- Installing: /root/Stogl/my_new_workspace/src/schunk_robots/install/schunk_lwa4p/share/schunk_lwa4p//config/diagnostics_analyzers.yaml
+-- Installing: /root/Stogl/my_new_workspace/src/schunk_robots/install/schunk_lwa4p/share/schunk_lwa4p//config/arm_self_collision.yaml
+-- Installing: /root/Stogl/my_new_workspace/src/schunk_robots/install/schunk_lwa4p/share/schunk_lwa4p//config/can0.yaml
+-- Installing: /root/Stogl/my_new_workspace/src/schunk_robots/install/schunk_lwa4p/share/schunk_lwa4p//config/arm_driver.yaml
+-- Installing: /root/Stogl/my_new_workspace/src/schunk_robots/install/schunk_lwa4p/share/schunk_lwa4p//config/Schunk_0_63.dcf
+-- Installing: /root/Stogl/my_new_workspace/src/schunk_robots/install/schunk_lwa4p/share/schunk_lwa4p//config/command_gui_buttons.yaml
+-- Installing: /root/Stogl/my_new_workspace/src/schunk_robots/install/schunk_lwa4p/share/schunk_lwa4p//config/joint_configurations.yaml
+-- Installing: /root/Stogl/my_new_workspace/src/schunk_robots/install/schunk_lwa4p/share/schunk_lwa4p//launch
+-- Installing: /root/Stogl/my_new_workspace/src/schunk_robots/install/schunk_lwa4p/share/schunk_lwa4p//launch/cartesian_controller.launch
+-- Installing: /root/Stogl/my_new_workspace/src/schunk_robots/install/schunk_lwa4p/share/schunk_lwa4p//launch/sim.launch
+-- Installing: /root/Stogl/my_new_workspace/src/schunk_robots/install/schunk_lwa4p/share/schunk_lwa4p//launch/test_description.launch
+-- Installing: /root/Stogl/my_new_workspace/src/schunk_robots/install/schunk_lwa4p/share/schunk_lwa4p//launch/robot.launch
+-- Installing: /root/Stogl/my_new_workspace/src/schunk_robots/install/schunk_lwa4p/share/schunk_lwa4p//launch/test_description.rviz
+-- Installing: /root/Stogl/my_new_workspace/src/schunk_robots/install/schunk_lwa4p/share/schunk_lwa4p//launch/dashboard.launch
+-- Installing: /root/Stogl/my_new_workspace/src/schunk_robots/install/schunk_lwa4p/share/schunk_lwa4p//urdf
+-- Installing: /root/Stogl/my_new_workspace/src/schunk_robots/install/schunk_lwa4p/share/schunk_lwa4p//urdf/robot.urdf.xacro
+-- Installing: /root/Stogl/my_new_workspace/src/schunk_robots/install/schunk_lwa4p/share/schunk_lwa4p//urdf/test
+-- Installing: /root/Stogl/my_new_workspace/src/schunk_robots/install/schunk_lwa4p/share/schunk_lwa4p//urdf/test/urdf.test

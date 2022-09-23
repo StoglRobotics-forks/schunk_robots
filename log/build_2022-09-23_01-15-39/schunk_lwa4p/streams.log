@@ -1,0 +1,10 @@
+[0.018s] Invoking command in '/root/Stogl/my_new_workspace/src/schunk_robots/build/schunk_lwa4p': PS1=\[\e[0;37m\][\t]\[\[\e[1;32m\]\u\[\[\e[0;37m\]@\[\[\e[0;33m\]\h\[\[\e[1;33m\]${text}\[\[\e[0;37m\]:\[$(set_ros_workspace_color)\]$(parse_ros_workspace)\[\[\e[0;32m\]$(parse_git_branch_and_add_brackets)>\[\[\e[1;35m\]\W\[\[\e[1;35m\]$\[\[\e[0m\]\[\e[m\] /usr/bin/cmake --build /root/Stogl/my_new_workspace/src/schunk_robots/build/schunk_lwa4p -- -j8 -l8
+[0.038s] -- Found ament_cmake: 1.5.0 (/opt/ros/rolling/share/ament_cmake/cmake)
+[0.250s] [31mCMake Error at CMakeLists.txt:11 (add_rostest):
+[0.250s]   Unknown CMake command "add_rostest".
+[0.251s] 
+[0.251s] [0m
+[0.251s] -- Configuring incomplete, errors occurred!
+[0.251s] See also "/root/Stogl/my_new_workspace/src/schunk_robots/build/schunk_lwa4p/CMakeFiles/CMakeOutput.log".
+[0.253s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.256s] Invoked command in '/root/Stogl/my_new_workspace/src/schunk_robots/build/schunk_lwa4p' returned '2': PS1=\[\e[0;37m\][\t]\[\[\e[1;32m\]\u\[\[\e[0;37m\]@\[\[\e[0;33m\]\h\[\[\e[1;33m\]${text}\[\[\e[0;37m\]:\[$(set_ros_workspace_color)\]$(parse_ros_workspace)\[\[\e[0;32m\]$(parse_git_branch_and_add_brackets)>\[\[\e[1;35m\]\W\[\[\e[1;35m\]$\[\[\e[0m\]\[\e[m\] /usr/bin/cmake --build /root/Stogl/my_new_workspace/src/schunk_robots/build/schunk_lwa4p -- -j8 -l8

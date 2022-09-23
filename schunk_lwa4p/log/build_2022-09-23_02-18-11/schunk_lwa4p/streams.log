@@ -1,0 +1,69 @@
+[0.019s] Invoking command in '/root/Stogl/my_new_workspace/src/schunk_robots/schunk_lwa4p/build/schunk_lwa4p': CMAKE_PREFIX_PATH=/opt/ros/rolling PS1=\[\e[0;37m\][\t]\[\[\e[1;32m\]\u\[\[\e[0;37m\]@\[\[\e[0;33m\]\h\[\[\e[1;33m\]${text}\[\[\e[0;37m\]:\[$(set_ros_workspace_color)\]$(parse_ros_workspace)\[\[\e[0;32m\]$(parse_git_branch_and_add_brackets)>\[\[\e[1;35m\]\W\[\[\e[1;35m\]$\[\[\e[0m\]\[\e[m\] /usr/bin/cmake /root/Stogl/my_new_workspace/src/schunk_robots/schunk_lwa4p -DCMAKE_INSTALL_PREFIX=/root/Stogl/my_new_workspace/src/schunk_robots/schunk_lwa4p/install/schunk_lwa4p
+[0.070s] -- The C compiler identification is GNU 11.2.0
+[0.123s] -- The CXX compiler identification is GNU 11.2.0
+[0.130s] -- Detecting C compiler ABI info
+[0.193s] -- Detecting C compiler ABI info - done
+[0.199s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.200s] -- Detecting C compile features
+[0.201s] -- Detecting C compile features - done
+[0.204s] -- Detecting CXX compiler ABI info
+[0.275s] -- Detecting CXX compiler ABI info - done
+[0.282s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.282s] -- Detecting CXX compile features
+[0.282s] -- Detecting CXX compile features - done
+[0.285s] -- Found ament_cmake: 1.5.0 (/opt/ros/rolling/share/ament_cmake/cmake)
+[0.464s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.4") found components: Interpreter 
+[0.686s] -- Found launch_testing_ament_cmake: 1.1.0 (/opt/ros/rolling/share/launch_testing_ament_cmake/cmake)
+[0.688s] -- Found python_cmake_module: 0.10.0 (/opt/ros/rolling/share/python_cmake_module/cmake)
+[0.712s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.4", minimum required is "3.6") 
+[0.721s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.4", minimum required is "3.5") 
+[0.721s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.721s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.721s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.743s] -- Found PythonExtra: .so  
+[0.744s] -- Configuring done
+[0.751s] -- Generating done
+[0.752s] -- Build files have been written to: /root/Stogl/my_new_workspace/src/schunk_robots/schunk_lwa4p/build/schunk_lwa4p
+[0.758s] Invoked command in '/root/Stogl/my_new_workspace/src/schunk_robots/schunk_lwa4p/build/schunk_lwa4p' returned '0': CMAKE_PREFIX_PATH=/opt/ros/rolling PS1=\[\e[0;37m\][\t]\[\[\e[1;32m\]\u\[\[\e[0;37m\]@\[\[\e[0;33m\]\h\[\[\e[1;33m\]${text}\[\[\e[0;37m\]:\[$(set_ros_workspace_color)\]$(parse_ros_workspace)\[\[\e[0;32m\]$(parse_git_branch_and_add_brackets)>\[\[\e[1;35m\]\W\[\[\e[1;35m\]$\[\[\e[0m\]\[\e[m\] /usr/bin/cmake /root/Stogl/my_new_workspace/src/schunk_robots/schunk_lwa4p -DCMAKE_INSTALL_PREFIX=/root/Stogl/my_new_workspace/src/schunk_robots/schunk_lwa4p/install/schunk_lwa4p
+[0.760s] Invoking command in '/root/Stogl/my_new_workspace/src/schunk_robots/schunk_lwa4p/build/schunk_lwa4p': CMAKE_PREFIX_PATH=/opt/ros/rolling PS1=\[\e[0;37m\][\t]\[\[\e[1;32m\]\u\[\[\e[0;37m\]@\[\[\e[0;33m\]\h\[\[\e[1;33m\]${text}\[\[\e[0;37m\]:\[$(set_ros_workspace_color)\]$(parse_ros_workspace)\[\[\e[0;32m\]$(parse_git_branch_and_add_brackets)>\[\[\e[1;35m\]\W\[\[\e[1;35m\]$\[\[\e[0m\]\[\e[m\] /usr/bin/cmake --build /root/Stogl/my_new_workspace/src/schunk_robots/schunk_lwa4p/build/schunk_lwa4p -- -j8 -l8
+[0.791s] Invoked command in '/root/Stogl/my_new_workspace/src/schunk_robots/schunk_lwa4p/build/schunk_lwa4p' returned '0': CMAKE_PREFIX_PATH=/opt/ros/rolling PS1=\[\e[0;37m\][\t]\[\[\e[1;32m\]\u\[\[\e[0;37m\]@\[\[\e[0;33m\]\h\[\[\e[1;33m\]${text}\[\[\e[0;37m\]:\[$(set_ros_workspace_color)\]$(parse_ros_workspace)\[\[\e[0;32m\]$(parse_git_branch_and_add_brackets)>\[\[\e[1;35m\]\W\[\[\e[1;35m\]$\[\[\e[0m\]\[\e[m\] /usr/bin/cmake --build /root/Stogl/my_new_workspace/src/schunk_robots/schunk_lwa4p/build/schunk_lwa4p -- -j8 -l8
+[0.820s] Invoking command in '/root/Stogl/my_new_workspace/src/schunk_robots/schunk_lwa4p/build/schunk_lwa4p': CMAKE_PREFIX_PATH=/opt/ros/rolling PS1=\[\e[0;37m\][\t]\[\[\e[1;32m\]\u\[\[\e[0;37m\]@\[\[\e[0;33m\]\h\[\[\e[1;33m\]${text}\[\[\e[0;37m\]:\[$(set_ros_workspace_color)\]$(parse_ros_workspace)\[\[\e[0;32m\]$(parse_git_branch_and_add_brackets)>\[\[\e[1;35m\]\W\[\[\e[1;35m\]$\[\[\e[0m\]\[\e[m\] /usr/bin/cmake --install /root/Stogl/my_new_workspace/src/schunk_robots/schunk_lwa4p/build/schunk_lwa4p
+[0.827s] -- Install configuration: ""
+[0.827s] -- Installing: /root/Stogl/my_new_workspace/src/schunk_robots/schunk_lwa4p/install/schunk_lwa4p/share/ament_index/resource_index/package_run_dependencies/schunk_lwa4p
+[0.828s] -- Installing: /root/Stogl/my_new_workspace/src/schunk_robots/schunk_lwa4p/install/schunk_lwa4p/share/ament_index/resource_index/parent_prefix_path/schunk_lwa4p
+[0.828s] -- Installing: /root/Stogl/my_new_workspace/src/schunk_robots/schunk_lwa4p/install/schunk_lwa4p/share/schunk_lwa4p/environment/ament_prefix_path.sh
+[0.828s] -- Installing: /root/Stogl/my_new_workspace/src/schunk_robots/schunk_lwa4p/install/schunk_lwa4p/share/schunk_lwa4p/environment/ament_prefix_path.dsv
+[0.829s] -- Installing: /root/Stogl/my_new_workspace/src/schunk_robots/schunk_lwa4p/install/schunk_lwa4p/share/schunk_lwa4p/environment/path.sh
+[0.829s] -- Installing: /root/Stogl/my_new_workspace/src/schunk_robots/schunk_lwa4p/install/schunk_lwa4p/share/schunk_lwa4p/environment/path.dsv
+[0.829s] -- Installing: /root/Stogl/my_new_workspace/src/schunk_robots/schunk_lwa4p/install/schunk_lwa4p/share/schunk_lwa4p/local_setup.bash
+[0.829s] -- Installing: /root/Stogl/my_new_workspace/src/schunk_robots/schunk_lwa4p/install/schunk_lwa4p/share/schunk_lwa4p/local_setup.sh
+[0.830s] -- Installing: /root/Stogl/my_new_workspace/src/schunk_robots/schunk_lwa4p/install/schunk_lwa4p/share/schunk_lwa4p/local_setup.zsh
+[0.830s] -- Installing: /root/Stogl/my_new_workspace/src/schunk_robots/schunk_lwa4p/install/schunk_lwa4p/share/schunk_lwa4p/local_setup.dsv
+[0.830s] -- Installing: /root/Stogl/my_new_workspace/src/schunk_robots/schunk_lwa4p/install/schunk_lwa4p/share/schunk_lwa4p/package.dsv
+[0.830s] -- Installing: /root/Stogl/my_new_workspace/src/schunk_robots/schunk_lwa4p/install/schunk_lwa4p/share/ament_index/resource_index/packages/schunk_lwa4p
+[0.832s] -- Installing: /root/Stogl/my_new_workspace/src/schunk_robots/schunk_lwa4p/install/schunk_lwa4p/share/schunk_lwa4p/cmake/schunk_lwa4pConfig.cmake
+[0.832s] -- Installing: /root/Stogl/my_new_workspace/src/schunk_robots/schunk_lwa4p/install/schunk_lwa4p/share/schunk_lwa4p/cmake/schunk_lwa4pConfig-version.cmake
+[0.832s] -- Installing: /root/Stogl/my_new_workspace/src/schunk_robots/schunk_lwa4p/install/schunk_lwa4p/share/schunk_lwa4p/package.xml
+[0.832s] -- Installing: /root/Stogl/my_new_workspace/src/schunk_robots/schunk_lwa4p/install/schunk_lwa4p/share/schunk_lwa4p//config
+[0.833s] -- Installing: /root/Stogl/my_new_workspace/src/schunk_robots/schunk_lwa4p/install/schunk_lwa4p/share/schunk_lwa4p//config/arm_controller.yaml
+[0.833s] -- Installing: /root/Stogl/my_new_workspace/src/schunk_robots/schunk_lwa4p/install/schunk_lwa4p/share/schunk_lwa4p//config/joint_limits.yaml
+[0.834s] -- Installing: /root/Stogl/my_new_workspace/src/schunk_robots/schunk_lwa4p/install/schunk_lwa4p/share/schunk_lwa4p//config/arm_cartesian_controller.yaml
+[0.834s] -- Installing: /root/Stogl/my_new_workspace/src/schunk_robots/schunk_lwa4p/install/schunk_lwa4p/share/schunk_lwa4p//config/diagnostics_analyzers.yaml
+[0.834s] -- Installing: /root/Stogl/my_new_workspace/src/schunk_robots/schunk_lwa4p/install/schunk_lwa4p/share/schunk_lwa4p//config/arm_self_collision.yaml
+[0.835s] -- Installing: /root/Stogl/my_new_workspace/src/schunk_robots/schunk_lwa4p/install/schunk_lwa4p/share/schunk_lwa4p//config/can0.yaml
+[0.835s] -- Installing: /root/Stogl/my_new_workspace/src/schunk_robots/schunk_lwa4p/install/schunk_lwa4p/share/schunk_lwa4p//config/arm_driver.yaml
+[0.835s] -- Installing: /root/Stogl/my_new_workspace/src/schunk_robots/schunk_lwa4p/install/schunk_lwa4p/share/schunk_lwa4p//config/Schunk_0_63.dcf
+[0.836s] -- Installing: /root/Stogl/my_new_workspace/src/schunk_robots/schunk_lwa4p/install/schunk_lwa4p/share/schunk_lwa4p//config/command_gui_buttons.yaml
+[0.836s] -- Installing: /root/Stogl/my_new_workspace/src/schunk_robots/schunk_lwa4p/install/schunk_lwa4p/share/schunk_lwa4p//config/joint_configurations.yaml
+[0.836s] -- Installing: /root/Stogl/my_new_workspace/src/schunk_robots/schunk_lwa4p/install/schunk_lwa4p/share/schunk_lwa4p//launch
+[0.836s] -- Installing: /root/Stogl/my_new_workspace/src/schunk_robots/schunk_lwa4p/install/schunk_lwa4p/share/schunk_lwa4p//launch/cartesian_controller.launch
+[0.837s] -- Installing: /root/Stogl/my_new_workspace/src/schunk_robots/schunk_lwa4p/install/schunk_lwa4p/share/schunk_lwa4p//launch/sim.launch
+[0.837s] -- Installing: /root/Stogl/my_new_workspace/src/schunk_robots/schunk_lwa4p/install/schunk_lwa4p/share/schunk_lwa4p//launch/test_description.launch
+[0.837s] -- Installing: /root/Stogl/my_new_workspace/src/schunk_robots/schunk_lwa4p/install/schunk_lwa4p/share/schunk_lwa4p//launch/robot.launch
+[0.837s] -- Installing: /root/Stogl/my_new_workspace/src/schunk_robots/schunk_lwa4p/install/schunk_lwa4p/share/schunk_lwa4p//launch/test_description.rviz
+[0.838s] -- Installing: /root/Stogl/my_new_workspace/src/schunk_robots/schunk_lwa4p/install/schunk_lwa4p/share/schunk_lwa4p//launch/dashboard.launch
+[0.838s] -- Installing: /root/Stogl/my_new_workspace/src/schunk_robots/schunk_lwa4p/install/schunk_lwa4p/share/schunk_lwa4p//urdf
+[0.838s] -- Installing: /root/Stogl/my_new_workspace/src/schunk_robots/schunk_lwa4p/install/schunk_lwa4p/share/schunk_lwa4p//urdf/robot.urdf.xacro
+[0.839s] -- Installing: /root/Stogl/my_new_workspace/src/schunk_robots/schunk_lwa4p/install/schunk_lwa4p/share/schunk_lwa4p//urdf/test
+[0.839s] -- Installing: /root/Stogl/my_new_workspace/src/schunk_robots/schunk_lwa4p/install/schunk_lwa4p/share/schunk_lwa4p//urdf/test/urdf.test
+[0.842s] Invoked command in '/root/Stogl/my_new_workspace/src/schunk_robots/schunk_lwa4p/build/schunk_lwa4p' returned '0': CMAKE_PREFIX_PATH=/opt/ros/rolling PS1=\[\e[0;37m\][\t]\[\[\e[1;32m\]\u\[\[\e[0;37m\]@\[\[\e[0;33m\]\h\[\[\e[1;33m\]${text}\[\[\e[0;37m\]:\[$(set_ros_workspace_color)\]$(parse_ros_workspace)\[\[\e[0;32m\]$(parse_git_branch_and_add_brackets)>\[\[\e[1;35m\]\W\[\[\e[1;35m\]$\[\[\e[0m\]\[\e[m\] /usr/bin/cmake --install /root/Stogl/my_new_workspace/src/schunk_robots/schunk_lwa4p/build/schunk_lwa4p

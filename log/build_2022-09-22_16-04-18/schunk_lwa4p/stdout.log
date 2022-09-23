@@ -1,0 +1,4 @@
+-- Found ament_cmake: 1.5.0 (/opt/ros/rolling/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.4") found components: Interpreter 
+-- Configuring incomplete, errors occurred!
+See also "/root/Stogl/my_new_workspace/src/schunk_robots/build/schunk_lwa4p/CMakeFiles/CMakeOutput.log".

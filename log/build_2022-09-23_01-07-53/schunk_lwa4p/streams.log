@@ -1,0 +1,22 @@
+[0.018s] Invoking command in '/root/Stogl/my_new_workspace/src/schunk_robots/build/schunk_lwa4p': PS1=\[\e[0;37m\][\t]\[\[\e[1;32m\]\u\[\[\e[0;37m\]@\[\[\e[0;33m\]\h\[\[\e[1;33m\]${text}\[\[\e[0;37m\]:\[$(set_ros_workspace_color)\]$(parse_ros_workspace)\[\[\e[0;32m\]$(parse_git_branch_and_add_brackets)>\[\[\e[1;35m\]\W\[\[\e[1;35m\]$\[\[\e[0m\]\[\e[m\] /usr/bin/cmake --build /root/Stogl/my_new_workspace/src/schunk_robots/build/schunk_lwa4p -- -j8 -l8
+[0.049s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[0.049s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.049s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.050s]   CMake did not find one.
+[0.050s] 
+[0.050s]   Could not find a package configuration file provided by "catkin" with any
+[0.050s]   of the following names:
+[0.050s] 
+[0.050s]     catkinConfig.cmake
+[0.051s]     catkin-config.cmake
+[0.051s] 
+[0.051s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.051s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.051s]   provides a separate development package or SDK, be sure it has been
+[0.051s]   installed.
+[0.053s] 
+[0.053s] [0m
+[0.054s] -- Configuring incomplete, errors occurred!
+[0.055s] See also "/root/Stogl/my_new_workspace/src/schunk_robots/build/schunk_lwa4p/CMakeFiles/CMakeOutput.log".
+[0.055s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.056s] Invoked command in '/root/Stogl/my_new_workspace/src/schunk_robots/build/schunk_lwa4p' returned '2': PS1=\[\e[0;37m\][\t]\[\[\e[1;32m\]\u\[\[\e[0;37m\]@\[\[\e[0;33m\]\h\[\[\e[1;33m\]${text}\[\[\e[0;37m\]:\[$(set_ros_workspace_color)\]$(parse_ros_workspace)\[\[\e[0;32m\]$(parse_git_branch_and_add_brackets)>\[\[\e[1;35m\]\W\[\[\e[1;35m\]$\[\[\e[0m\]\[\e[m\] /usr/bin/cmake --build /root/Stogl/my_new_workspace/src/schunk_robots/build/schunk_lwa4p -- -j8 -l8
