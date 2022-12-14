@@ -18,7 +18,7 @@ endif()
 ################################################################################
 # Install
 ################################################################################
-install(DIRECTORY config Media meshes urdf launch ros2_control
+install(DIRECTORY Media meshes urdf launch ros2_control
   DESTINATION share/${PROJECT_NAME}/
 )
 
