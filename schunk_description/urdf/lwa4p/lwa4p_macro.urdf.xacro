@@ -52,17 +52,17 @@
       <xacro:default_inertial/>
     </link>
 
-    <!-- joint between arm_0_link and arm_1_link -->
-    <joint name="${name}_1_joint" type="revolute">
+    <!-- joint between arm_0_link and arm_link_1 -->
+    <joint name="${name}_joint_1" type="revolute">
       <origin xyz="0 0 0" rpy="0 0 0" />
       <parent link="${name}_base_link"/>
-      <child link="${name}_1_link"/>
+      <child link="${name}_link_1"/>
       <axis xyz="0 0 1"/>
       <limit effort="370" velocity="1.26" lower="${-2.967 + safety_offset}" upper="${2.967 - safety_offset}"/>
       <!--safety_controller k_position="20" k_velocity="50" soft_lower_limit="${-6.28 + 0.01}" soft_upper_limit="${6.28 - 0.01}" /-->
     </joint>
 
-    <link name="${name}_1_link">
+    <link name="${name}_link_1">
       <xacro:default_inertial/>
 <!--
       <inertial>
@@ -75,7 +75,7 @@
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
-          <mesh filename="package://schunk_description/meshes/lwa4p/arm_1_link.stl" />
+          <mesh filename="package://schunk_description/meshes/lwa4p/arm_link_1.stl" />
         </geometry>
         <material name="Schunk/Blue" />
       </visual>
@@ -83,22 +83,22 @@
       <collision>
         <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
-          <mesh filename="package://schunk_description/meshes/lwa4p/arm_1_link.stl" />
+          <mesh filename="package://schunk_description/meshes/lwa4p/arm_link_1.stl" />
         </geometry>
       </collision>
     </link>
 
-    <!-- joint between arm_1_link and arm_2_link -->
-    <joint name="${name}_2_joint" type="revolute">
+    <!-- joint between arm_link_1 and arm_link_2 -->
+    <joint name="${name}_joint_2" type="revolute">
       <origin xyz="0 0 0" rpy="1.5708 0 0"/>
-      <parent link="${name}_1_link"/>
-      <child link="${name}_2_link"/>
+      <parent link="${name}_link_1"/>
+      <child link="${name}_link_2"/>
       <axis xyz="0 0 1"/>
       <limit effort="370" velocity="1.26" lower="${-2.967 + safety_offset}" upper="${2.967 - safety_offset}"/>
       <!--safety_controller k_position="20" k_velocity="50" soft_lower_limit="${-2.09 + 0.01}" soft_upper_limit="${2.09 - 0.01}" /-->
     </joint>
 
-    <link name="${name}_2_link">
+    <link name="${name}_link_2">
       <xacro:default_inertial/>
 <!--
       <inertial>
@@ -111,7 +111,7 @@
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
-          <mesh filename="package://schunk_description/meshes/lwa4p/arm_2_link.stl" />
+          <mesh filename="package://schunk_description/meshes/lwa4p/arm_link_2.stl" />
         </geometry>
         <material name="Schunk/LightGrey" />
       </visual>
@@ -119,22 +119,22 @@
       <collision>
         <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
-          <mesh filename="package://schunk_description/meshes/lwa4p/arm_2_link.stl" />
+          <mesh filename="package://schunk_description/meshes/lwa4p/arm_link_2.stl" />
         </geometry>
       </collision>
     </link>
 
-    <!-- joint between arm_2_link and arm_3_link -->
-    <joint name="${name}_3_joint" type="revolute">
+    <!-- joint between arm_link_2 and arm_link_3 -->
+    <joint name="${name}_joint_3" type="revolute">
       <origin xyz="0 0.350 0" rpy="0 3.14159 0"/>
-      <parent link="${name}_2_link"/>
-      <child link="${name}_3_link"/>
+      <parent link="${name}_link_2"/>
+      <child link="${name}_link_3"/>
       <axis xyz="0 0 1"/>
       <limit effort="176" velocity="1.26" lower="${-2.714 + safety_offset}" upper="${2.714 - safety_offset}"/>
       <!--safety_controller k_position="20" k_velocity="25" soft_lower_limit="${-6.28 + 0.01}" soft_upper_limit="${6.28 - 0.01}" /-->
     </joint>
 
-    <link name="${name}_3_link">
+    <link name="${name}_link_3">
       <xacro:default_inertial/>
 <!--
       <inertial>
@@ -147,7 +147,7 @@
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
-          <mesh filename="package://schunk_description/meshes/lwa4p/arm_3_link.stl" />
+          <mesh filename="package://schunk_description/meshes/lwa4p/arm_link_3.stl" />
         </geometry>
         <material name="Schunk/Blue" />
       </visual>
@@ -155,22 +155,22 @@
       <collision>
         <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
-          <mesh filename="package://schunk_description/meshes/lwa4p/arm_3_link.stl" />
+          <mesh filename="package://schunk_description/meshes/lwa4p/arm_link_3.stl" />
         </geometry>
       </collision>
     </link>
 
-    <!-- joint between arm_3_link and arm_4_link -->
-    <joint name="${name}_4_joint" type="revolute">
+    <!-- joint between arm_link_3 and arm_link_4 -->
+    <joint name="${name}_joint_4" type="revolute">
       <origin xyz="0 0 0" rpy="-1.5708 3.14159 0" />
-      <parent link="${name}_3_link"/>
-      <child link="${name}_4_link"/>
+      <parent link="${name}_link_3"/>
+      <child link="${name}_link_4"/>
       <axis xyz="0 0 1" />
       <limit effort="176" velocity="1.26" lower="${-2.967 + safety_offset}" upper="${2.967 - safety_offset}"/>
       <!--safety_controller k_position="20" k_velocity="25" soft_lower_limit="${-2.09 + 0.01}" soft_upper_limit="${2.09 - 0.01}" /-->
     </joint>
 
-    <link name="${name}_4_link">
+    <link name="${name}_link_4">
       <xacro:default_inertial/>
 <!--
       <inertial>
@@ -183,7 +183,7 @@
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
-          <mesh filename="package://schunk_description/meshes/lwa4p/arm_4_link.stl" />
+          <mesh filename="package://schunk_description/meshes/lwa4p/arm_link_4.stl" />
         </geometry>
         <material name="Schunk/LightGrey" />
       </visual>
@@ -191,22 +191,22 @@
       <collision>
         <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
-          <mesh filename="package://schunk_description/meshes/lwa4p/arm_4_link.stl" />
+          <mesh filename="package://schunk_description/meshes/lwa4p/arm_link_4.stl" />
         </geometry>
       </collision>
     </link>
 
-    <!-- joint between arm_4_link and arm_5_link -->
-    <joint name="${name}_5_joint" type="revolute">
+    <!-- joint between arm_link_4 and arm_link_5 -->
+    <joint name="${name}_joint_5" type="revolute">
       <origin xyz="0 0.005263 0.305" rpy="1.5708 0 3.14159" />
-      <parent link="${name}_4_link"/>
-      <child link="${name}_5_link"/>
+      <parent link="${name}_link_4"/>
+      <child link="${name}_link_5"/>
       <axis xyz="0 0 1" />
       <limit effort="41.6" velocity="1.26" lower="${-2.967 + safety_offset}" upper="${2.967 - safety_offset}" />
       <!--safety_controller k_position="20" k_velocity="25" soft_lower_limit="${-6.28 + 0.01}" soft_upper_limit="${6.28 - 0.01}" /-->
     </joint>
 
-    <link name="${name}_5_link">
+    <link name="${name}_link_5">
       <xacro:default_inertial/>
 <!--
       <inertial>
@@ -219,7 +219,7 @@
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
-          <mesh filename="package://schunk_description/meshes/lwa4p/arm_5_link.stl" />
+          <mesh filename="package://schunk_description/meshes/lwa4p/arm_link_5.stl" />
         </geometry>
         <material name="Schunk/Blue" />
       </visual>
@@ -227,22 +227,22 @@
       <collision>
         <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
-          <mesh filename="package://schunk_description/meshes/lwa4p/arm_5_link.stl" />
+          <mesh filename="package://schunk_description/meshes/lwa4p/arm_link_5.stl" />
         </geometry>
       </collision>
     </link>
 
-    <!-- joint between arm_5_link and arm_6_link -->
-    <joint name="${name}_6_joint" type="revolute">
+    <!-- joint between arm_link_5 and arm_link_6 -->
+    <joint name="${name}_joint_6" type="revolute">
       <origin xyz="0 0 0" rpy="-1.5708 0 0" />
-      <parent link="${name}_5_link"/>
-      <child link="${name}_6_link"/>
+      <parent link="${name}_link_5"/>
+      <child link="${name}_link_6"/>
       <axis xyz="0 0 1" />
       <limit effort="20.1" velocity="1.26" lower="${-2.967 + safety_offset}" upper="${2.967 - safety_offset}" />
       <!--safety_controller k_position="20" k_velocity="25" soft_lower_limit="${-2.09 + 0.01}" soft_upper_limit="${2.09 - 0.01}" /-->
     </joint>
 
-    <link name="${name}_6_link">
+    <link name="${name}_link_6">
       <xacro:default_inertial/>
 <!--
       <inertial>
@@ -255,7 +255,7 @@
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
-          <mesh filename="package://schunk_description/meshes/lwa4p/arm_6_link.stl" />
+          <mesh filename="package://schunk_description/meshes/lwa4p/arm_link_6.stl" />
         </geometry>
         <material name="Schunk/LightGrey" />
       </visual>
@@ -263,7 +263,7 @@
       <collision>
         <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
-          <mesh filename="package://schunk_description/meshes/lwa4p/arm_6_link.stl" />
+          <mesh filename="package://schunk_description/meshes/lwa4p/arm_link_6.stl" />
         </geometry>
       </collision>
     </link>

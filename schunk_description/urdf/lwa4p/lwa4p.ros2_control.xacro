@@ -27,7 +27,7 @@
         </xacro:unless>
       </hardware>
 
-      <joint name="${name}_1_joint">
+      <joint name="${name}_joint_1">
         <command_interface name="position">
           <param name="min">-2.95</param>
           <param name="max">2.95</param>
@@ -36,7 +36,7 @@
           <param name="initial_value">0.0</param>
         </state_interface>
       </joint>
-      <joint name="${name}_2_joint">
+      <joint name="${name}_joint_2">
         <command_interface name="position">
           <param name="min">-2.95</param>
           <param name="max">2.95</param>
@@ -45,7 +45,7 @@
           <param name="initial_value">0.0</param>
         </state_interface>
       </joint>
-      <joint name="${name}_3_joint">
+      <joint name="${name}_joint_3">
         <command_interface name="position">
           <param name="min">-2.69</param>
           <param name="max">2.69</param>
@@ -54,7 +54,7 @@
           <param name="initial_value">0.0</param>
         </state_interface>
       </joint>
-      <joint name="${name}_4_joint">
+      <joint name="${name}_joint_4">
         <command_interface name="position">
           <param name="min">-2.95</param>
           <param name="max">2.95</param>
@@ -63,7 +63,7 @@
           <param name="initial_value">0.0</param>
         </state_interface>
       </joint>
-      <joint name="${name}_5_joint">
+      <joint name="${name}_joint_5">
         <command_interface name="position">
           <param name="min">-2.95</param>
           <param name="max">2.95</param>
@@ -72,7 +72,7 @@
           <param name="initial_value">0.0</param>
         </state_interface>
       </joint>
-      <joint name="${name}_6_joint">
+      <joint name="${name}_joint_6">
         <command_interface name="position">
           <param name="min">-2.95</param>
           <param name="max">2.95</param>

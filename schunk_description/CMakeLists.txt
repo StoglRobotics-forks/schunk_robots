@@ -10,7 +10,7 @@ if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
 endif()
 
 # find dependencies
-find_package(ament_cmake REQUIRED COMPONENTS)
+find_package(ament_cmake REQUIRED)
 
 if(BUILD_TESTING)
 endif()
@@ -18,7 +18,7 @@ endif()
 ################################################################################
 # Install
 ################################################################################
-install(DIRECTORY Media meshes urdf launch ros2_control
+install(DIRECTORY Media meshes urdf launch
   DESTINATION share/${PROJECT_NAME}/
 )
 
