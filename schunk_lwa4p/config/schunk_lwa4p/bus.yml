@@ -1,0 +1,77 @@
+master:
+  node_id: 1
+  driver: "ros2_canopen::MasterDriver"
+  package: "canopen_master_driver"
+  sync_period: 10000
+
+arm_1_joint:
+  node_id: 3
+  dcf: "Schunk_0_63.dcf"
+  dcf_path: "install/schunk_lwa4p/share/schunk_lwa4p/config/schunk_lwa4p"
+  driver: "ros2_canopen::Cia402Driver"
+  package: "canopen_402_driver"
+  period: 20 
+  scale_vel_to_dev: 14323.9 # rint(rad2deg(vel)*250) - not sure here.
+  sdo:
+    - {index: 0x604C, sub_index: 1, value: 1}  # vl dimension factor numerator
+    - {index: 0x604C, sub_index: 2, value: 24000} # vl dimension factor denominator
+
+arm_2_joint:
+  node_id: 4
+  dcf: "Schunk_0_63.dcf"
+  dcf_path: "install/schunk_lwa4p/share/schunk_lwa4p/config/schunk_lwa4p"
+  driver: "ros2_canopen::Cia402Driver"
+  package: "canopen_402_driver"
+  period: 20 
+  scale_vel_to_dev: 14323.9 # rint(rad2deg(vel)*250) - not sure here.
+  sdo:
+    - {index: 0x604C, sub_index: 1, value: 1}  # vl dimension factor numerator
+    - {index: 0x604C, sub_index: 2, value: 24000} # vl dimension factor denominator
+
+arm_3_joint:
+  node_id: 5
+  dcf: "Schunk_0_63.dcf"
+  dcf_path: "install/schunk_lwa4p/share/schunk_lwa4p/config/schunk_lwa4p"
+  driver: "ros2_canopen::Cia402Driver"
+  package: "canopen_402_driver"
+  period: 20 
+  scale_vel_to_dev: 14323.9 # rint(rad2deg(vel)*250) - not sure here.
+  sdo:
+    - {index: 0x604C, sub_index: 1, value: 1}  # vl dimension factor numerator
+    - {index: 0x604C, sub_index: 2, value: 24000} # vl dimension factor denominator
+
+arm_4_joint:
+  node_id: 6
+  dcf: "Schunk_0_63.dcf"
+  dcf_path: "install/schunk_lwa4p/share/schunk_lwa4p/config/schunk_lwa4p"
+  driver: "ros2_canopen::Cia402Driver"
+  package: "canopen_402_driver"
+  period: 20 
+  scale_vel_to_dev: 14323.9 # rint(rad2deg(vel)*250) - not sure here.
+  sdo:
+    - {index: 0x604C, sub_index: 1, value: 1}  # vl dimension factor numerator
+    - {index: 0x604C, sub_index: 2, value: 24000} # vl dimension factor denominator
+
+arm_5_joint:
+  node_id: 7
+  dcf: "Schunk_0_63.dcf"
+  dcf_path: "install/schunk_lwa4p/share/schunk_lwa4p/config/schunk_lwa4p"
+  driver: "ros2_canopen::Cia402Driver"
+  package: "canopen_402_driver"
+  period: 20 
+  scale_vel_to_dev: 14323.9 # rint(rad2deg(vel)*250) - not sure here.
+  sdo:
+    - {index: 0x604C, sub_index: 1, value: 1}  # vl dimension factor numerator
+    - {index: 0x604C, sub_index: 2, value: 24000} # vl dimension factor denominator
+
+arm_6_joint:
+  node_id: 8
+  dcf: "Schunk_0_63.dcf"
+  dcf_path: "install/schunk_lwa4p/share/schunk_lwa4p/config/schunk_lwa4p"
+  driver: "ros2_canopen::Cia402Driver"
+  package: "canopen_402_driver"
+  period: 20 
+  scale_vel_to_dev: 14323.9 # rint(rad2deg(vel)*250) - not sure here.
+  sdo:
+    - {index: 0x604C, sub_index: 1, value: 1}  # vl dimension factor numerator
+    - {index: 0x604C, sub_index: 2, value: 24000} # vl dimension factor denominator
