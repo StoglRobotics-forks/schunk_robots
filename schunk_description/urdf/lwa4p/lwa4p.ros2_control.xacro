@@ -7,8 +7,11 @@
                mock_sensor_commands:=^|false
                sim_gazebo_classic:=^|false
                sim_gazebo:=^|false
-               simulation_controllers"
-               >
+               simulation_controllers
+               bus_config
+               master_config
+               can_interface
+               master_bin">
 
     <ros2_control name="${name}" type="system">
       <hardware>
@@ -23,7 +26,11 @@
           <plugin>ign_ros2_control/IgnitionSystem</plugin>
         </xacro:if>
         <xacro:unless value="${use_mock_hardware or sim_gazebo_classic or sim_gazebo}">
-          <plugin>robot_hardware_inteface/RobotHardwareInteface</plugin>
+          <plugin>canopen_ros2_control/Cia402System</plugin>
+          <param name="bus_config">${bus_config}</param>
+          <param name="master_config">${master_config}</param>
+          <param name="can_interface">${can_interface}</param>
+          <param name="master_bin">"${master_bin}"</param>
         </xacro:unless>
       </hardware>
 

@@ -70,7 +70,7 @@ def generate_launch_description():
     declared_arguments.append(
         DeclareLaunchArgument(
             "use_mock_hardware",
-            default_value="true",
+            default_value="false",
             description="Start robot with mock hardware mirroring command to its states.",
         )
     )
@@ -98,6 +98,56 @@ def generate_launch_description():
         )
     )
 
+    declared_arguments.append(
+        DeclareLaunchArgument(
+            "bus_config_package",
+            default_value="schunk_lwa4p",
+            description="Path to bus configuration.",
+        )
+    )
+    declared_arguments.append(
+        DeclareLaunchArgument(
+            "bus_config_directory",
+            default_value="config/schunk_lwa4p",
+            description="Path to bus configuration.",
+        )
+    )
+    declared_arguments.append(
+        DeclareLaunchArgument(
+            "bus_config_file",
+            default_value="bus.yml",
+            description="Path to bus configuration.",
+        )
+    )
+    declared_arguments.append(
+        DeclareLaunchArgument(
+            "master_config_package",
+            default_value="schunk_lwa4p",
+            description="Path to master configuration file (*.dcf)",
+        )
+    )
+    declared_arguments.append(
+        DeclareLaunchArgument(
+            "master_config_directory",
+            default_value="config/schunk_lwa4p",
+            description="Path to master configuration file (*.dcf)",
+        )
+    )
+    declared_arguments.append(
+        DeclareLaunchArgument(
+            "master_config_file",
+            default_value="master.dcf",
+            description="Path to master configuration file (*.dcf)",
+        )
+    )
+    declared_arguments.append(
+        DeclareLaunchArgument(
+            "can_interface",
+            default_value="vcan0",
+            description="Interface name for can",
+        )
+    )
+
     # Initialize Arguments
     runtime_config_package = LaunchConfiguration("runtime_config_package")
     controllers_file = LaunchConfiguration("controllers_file")
@@ -108,6 +158,23 @@ def generate_launch_description():
     mock_sensor_commands = LaunchConfiguration("mock_sensor_commands")
     robot_controller = LaunchConfiguration("robot_controller")
     start_rviz = LaunchConfiguration("start_rviz")
+    # bus configuration
+    bus_config_package = LaunchConfiguration("bus_config_package")
+    bus_config_directory = LaunchConfiguration("bus_config_directory")
+    bus_config_file = LaunchConfiguration("bus_config_file")
+    # master configuration
+    master_config_package = LaunchConfiguration("master_config_package")
+    master_config_directory = LaunchConfiguration("master_config_directory")
+    master_config_file = LaunchConfiguration("master_config_file")
+    # can interface name
+    can_interface = LaunchConfiguration("can_interface")
+
+    bus_config = PathJoinSubstitution(
+        [FindPackageShare(bus_config_package), bus_config_directory, bus_config_file]
+    )
+    master_config = PathJoinSubstitution(
+        [FindPackageShare(master_config_package), master_config_directory, master_config_file]
+    )
 
     # Get URDF via xacro
     robot_description_content = Command(
@@ -126,6 +193,15 @@ def generate_launch_description():
             " ",
             "mock_sensor_commands:=",
             mock_sensor_commands,
+            " ",
+            "bus_config:=",
+            bus_config,
+            " ",
+            "master_config:=",
+            master_config,
+            " ",
+            "can_interface:=",
+            can_interface,
             " ",
         ]
     )
